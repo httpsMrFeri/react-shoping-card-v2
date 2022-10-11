@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+:root {
+    --lite-Blue : #01a2ff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+    margin: 50px auto 20px;
+    display: table;
+    position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.header p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardBox , .cartBox{
+    text-align: center;
+    padding: 10px 5px 20px;
+    box-shadow: 0px 0px 5px 1px var(--lite-Blue);
+    width: 190px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.cardImg , .cartImg{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cardImg img , .cartImg img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cardText , .cartText{
+    color:  var(--lite-Blue);
+    line-height: 22px;
+}
+
+.cardText h2 , .cartText h2{
+    font-size: 19px;
+}
+
+.cardButton, .cartButton{
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+button{
+    border: none;
+    padding: 5px 10px ;
+    border-radius: 6px;
+}
+
+.cardButton .buyButton , .cartButton .buyButton , .cartDelete button{
+    background-color: #00000000;
+    border: solid 2px var(--lite-Blue);
+    color: var(--lite-Blue);
+}
+
+.cardButton .showButton , .cartButton .showButton , .cartItemNumber button , .header button{
+    background-color: var(--lite-Blue);
+    color: white;
+}
+
+.cartItemNumber{
+    margin: 10px 0px;
+}
+
+.cartItemNumber p {
+    width: 30px;
+    margin: 0px 10px;
+    border-bottom: var(--lite-Blue) 2px solid;
+    color: var(--lite-Blue);
+    border-radius: 3px;
+}
+
+.cartItemNumber button {
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+.cartTotal {
+    margin-top: 10px;
+    color: var(--lite-Blue);
+}
+
+.buyButton:target {
+    background-color: #01a2ff;
 }
