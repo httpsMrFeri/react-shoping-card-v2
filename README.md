@@ -12,7 +12,7 @@
 `cd react-shping-card-v2`<br/>
 `npm install`<br/>
 `npm start`<br/>
-## `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -20,12 +20,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -35,7 +35,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -46,6 +46,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ---
-screnshot
+#### shoping page
+![Screenshot 2023-01-19 151233](https://user-images.githubusercontent.com/109946641/213434128-e48ed0de-c198-47c9-b192-58d75f3a424b.png)
+#### cart page
+![Screenshot 2023-01-19 151335](https://user-images.githubusercontent.com/109946641/213434136-58693f9a-fe2a-4c85-835e-6232cfc2482f.png)
+
 ---
 ### share with your friends:heart::fire:
