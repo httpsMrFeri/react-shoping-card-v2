@@ -6,7 +6,7 @@
 ## This is a proof of concept and could be improved on in a lot of ways.
 **1º - Download framework from github**<br/>
 `git clone git@github.com:httpsMrFeri/react-shoping-card-v2.git`<br/>
-**2º - Download framework from github**<br/>
+**2º - Download nodejs**<br/>
     download node.js from [here](https://nodejs.org/en/download/)<br/>
 **3º - Move to directory and start server**<br/>
 `cd react-shping-card-v2`<br/>
